@@ -14,9 +14,9 @@ function nuketNavbar() {
         <Container>
             <Navbar.Brand className='brandTitle' href="#home">NUKET</Navbar.Brand>
             <Nav>
-                <Nav.Link href="servicios">Servicios</Nav.Link>
-                <Nav.Link href="nosotros">Nosotros</Nav.Link>
-                <Nav.Link href="portfolio">Portfolio</Nav.Link>
+                <Nav.Link href="#servicios">Servicios</Nav.Link>
+                <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                 <Nav.Link href="#contacto">Contacto</Nav.Link>
             </Nav>
             <CartWidget />
