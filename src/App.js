@@ -1,9 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navbar />
+      <ItemListContainer greeting={'Esto es un saludo por Prop'}/>
+    </div>
+/*     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */
   );
 }
 
